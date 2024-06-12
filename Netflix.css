@@ -1,0 +1,147 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 0.7vmax;
+}
+body
+{
+    background-color: lightblue;
+    color:black;
+    font-family: sans-serif;
+}
+nav
+{
+    position: absolute;
+    width: 100vw;
+    padding: 0px 105px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav img
+{
+    width: 8rem;
+    
+}
+nav ul
+{
+    list-style: none;
+    display: flex;
+    column-gap: 10px;
+
+}
+#dropdown
+{
+    height: 22px;
+    width: 80px;
+    border: 1px solid white;
+    background: transparent;
+    font-size: 13px;
+    border-radius: 5px;
+    color: white;
+}
+#signin
+{
+    height: 22px;
+    width: 80px;
+    border-radius: 5px;
+    border: none;
+    background: #e50f13;
+    font-size: 13px;
+    color: white;
+}
+#main
+{
+    height: 100vh;
+    width: 100vw;
+    background:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url(https://assets.nflxext.com/ffe/siteui/vlv3/9134db96-10d6-4a64-a619-a21da22f8999/a449fabb-05e4-4c8a-b062-b0bec7d03085/IN-en-20240115-trifectadaily-perspective_alpha_website_large.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#content
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /* border: 2px solid white; */
+    flex-direction: column;
+}
+#content h1
+{
+    font-size: 2.1rem;
+    margin-bottom: 12px;
+}
+
+#content h6
+{
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+#content p
+{
+    font-size: 1rem;
+    line-height: 30px;
+}
+#myform
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+#myform input
+{
+    height: 3rem;
+    width: 23rem;
+    padding: 15px 20px;
+    background: transparent;
+    color: white;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-size: 1.4rem;
+}
+#myform button
+{
+    background-color: #e50f13;
+    color: white;
+    height: 3rem;
+    width: 12rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.4rem;
+
+}
+@media screen and (max-width: 1600px) 
+{
+    *
+    {
+        font-size: 12px;
+    }
+    #content height: 2px;
+    {
+        font-size: 5rem;
+    }
+    
+}
+@media screen and (max-width: 900px) 
+{
+    *
+    {
+        font-size: 11px;
+    }
+    #content height: 2px;
+    {
+        font-size: 5rem;
+    }
+    #myform
+    {
+        flex-direction: column;
+    }
+    
+}
